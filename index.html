@@ -8,14 +8,7 @@
 
     <meta name="theme-color" content="#000000" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-        <script>
-	window.addEventListener(“load”,function() {
-
-	  setTimeout(function(){
-	  window.scrollTo(0, 1); }, 10);
-	});
-	<!-- ... 當載入完成後，網址列就會自動向上縮，如此一來，就有更多的顯示範圍。 ... -->	
-	</script>
+      
 	<style>
 		body {
 			margin: 0;
@@ -88,7 +81,14 @@
 	<script src="PlatformBehavior/PlatformerObjectRuntimeBehavior.h" crossorigin="anonymous"></script>
 	<script src="code0.js" crossorigin="anonymous"></script>
 	<script src="data.js" crossorigin="anonymous"></script>
+          <script>
+	window.addEventListener(“load”,function() {
 
+	  setTimeout(function(){
+	  window.scrollTo(0, 1); }, 10);
+	});
+	<!-- ... 當載入完成後，網址列就會自動向上縮，如此一來，就有更多的顯示範圍。 ... -->	
+	</script>
 
 </head>
 <body>
